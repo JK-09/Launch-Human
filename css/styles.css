@@ -2,6 +2,7 @@ h1 {
   text-align: center;
   font-size: 5em;
   font-family: 'Ubuntu', sans-serif;
+  color: rgb(255, 255, 255)
 }
 body {
   position: relative;
