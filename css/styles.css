@@ -7,3 +7,9 @@ img {
   margin: 0 auto;
   border-radius: 100px;
 }
+.appBackground {
+    position: relative;
+    background-image: url("spaceheader.jpg");
+    background-repeat:no-repeat;
+    background-size:100% 100vh;
+}
