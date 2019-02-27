@@ -1,21 +1,17 @@
-
 h1 {
   text-align: center;
   font-size: 5em;
   font-family: 'Ubuntu', sans-serif;
 }
 body {
-  background-size: 100% 100% ;
+  position: relative;
+  background-image: url("../spaceheader.jpg");
+  background-repeat:no-repeat;
+  background-size:100% 100vh;
 }
 img {
   display: flex;
   padding: 100px;
   margin: 0 auto;
   border-radius: 100px;
-}
-.appBackground {
-    position: relative;
-    background-image: url("spaceheader.jpg");
-    background-repeat:no-repeat;
-    background-size:100% 100vh;
 }
