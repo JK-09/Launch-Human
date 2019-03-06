@@ -16,3 +16,9 @@ img {
   margin: 0 auto;
   border-radius: 100px;
 }
+p {
+  text-align: center;
+  font-family: arial;
+  font-size: 2em;
+  color: rgb(0, 0, 0)
+}
