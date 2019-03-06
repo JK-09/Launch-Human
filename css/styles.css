@@ -22,3 +22,6 @@ p {
   font-size: 2em;
   color: rgb(255, 255, 255)
 }
+button {
+  align-content: center;
+}
