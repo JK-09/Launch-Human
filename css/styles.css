@@ -9,7 +9,6 @@ body {
   background-image: url("../spaceheader.jpg");
   background-repeat:no-repeat;
   background-size:100% 100vh;
-  opacity: 70%;
 }
 img {
   display: flex;
