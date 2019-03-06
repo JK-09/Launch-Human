@@ -6,15 +6,21 @@ h1 {
 }
 body {
   position: relative;
-  background-image: url("../spaceheader.jpg");
+  background: url("../spaceheader.jpg");
   background-repeat:no-repeat;
   background-size:100% 100vh;
+
 }
 img {
   display: flex;
   padding: 100px;
   margin: 0 auto;
   border-radius: 100px;
+}
+.body-background {
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(0,0, 0, 0.7);
 }
 p {
   text-align: center;
