@@ -1,5 +1,4 @@
 h1 {
-  text-align: center;
   font-size: 5em;
   font-family: 'Ubuntu', sans-serif;
   color: rgb(255, 255, 255)
@@ -21,6 +20,9 @@ img {
     height: 100vh;
     width: 100vw;
     background-color: rgba(0,0, 0, 0.6);
+}
+.btn {
+  margin-left: 45%;
 }
 p {
   text-align: center;
