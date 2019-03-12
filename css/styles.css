@@ -56,3 +56,6 @@ p {
 .sidenav a:hover {
   color: #42DFFE;
 }
+/* page content */
+.main {
+  margin-left: 160px;
