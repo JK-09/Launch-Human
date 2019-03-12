@@ -33,4 +33,5 @@ p {
 /* The sidebar menu */
 .sidenav {
   height: 100%;
+  width: 160px;
 }
