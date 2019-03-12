@@ -41,6 +41,7 @@ p {
   background-color: 0;
   overflow-x: hidden;
   padding-top: 20px;
+  transition: left 0.3s;
 }
 
   /* The navigation menu links */
@@ -60,6 +61,7 @@ p {
 .main {
   margin-left: 160px;
   padding: 0px 10px;
+
 }
 /* smaller screens, chang style of the sidebar */
 @media screen and (max-height: 450px)
