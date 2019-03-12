@@ -61,6 +61,8 @@ p {
   margin-left: 160px;
   padding: 0px 10px;
 }
-/* smaller screens, chang style of the sidebar */
+/* for smaller screens, change style of the sidebar */
 @media screen and (max-height: 450px){
   .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+  }
