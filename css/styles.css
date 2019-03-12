@@ -30,9 +30,7 @@ p {
   font-size: 2em;
   color: rgb(255, 255, 255)
 }
-nav {
-  text-align: left;
-  font-family: Ubuntu;
-  font-size: 1.5em;
-  color: (rgb(255, 255, 255);
+/* The sidebar menu */
+.sidenav {
+  height: 100%;
 }
