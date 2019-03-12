@@ -51,6 +51,7 @@ p {
   font-size: 25px;
   color: #F9FDFE;
   display: block;
+  float: left;
 }
 
 /* navigation links change colour */
