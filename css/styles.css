@@ -51,3 +51,9 @@ p {
   color: #818181;
   display: block;
 }
+}
+
+/* navigation links, change colour */
+.sidenav a:hover {
+  color: #f1f1f1;
+}
