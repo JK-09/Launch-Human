@@ -83,7 +83,10 @@ p {
 .main {
   margin-left: 160px;
   padding: 0px 10px;
-
 }
 /* smaller screens, change style of the sidebar */
 @media screen and (max-height: 450px)
+@media screen and (max-width: 580px)
+  #navbar {
+    padding: 20px 10px !important;
+}
