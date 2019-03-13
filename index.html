@@ -32,4 +32,18 @@
   ...
 </div>
    </body>
+   <div class="form-popup" id="myForm">
+  <form action="/action_page.php" class="form-container">
+    <h1>Subscribe</h1>
+
+    <label for="name"><b>Name</b></label>
+    <input type="text" placeholder="Enter Name" name="name" required>
+
+    <label for="psw"><b>Email</b></label>
+    <input type="email" placeholder="Enter Email" name="psw" required>
+
+    <button type="submit" class="btn">Login</button>
+    <button type="submit" class="btn cancel" onclick="closeForm()">Close</button>
+  </form>
+</div>
  </html>
