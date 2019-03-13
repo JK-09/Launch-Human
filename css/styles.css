@@ -10,6 +10,13 @@ body {
   background-size:100% 100vh;
 
 }
+.triangle-up {
+	width: 0;
+	height: 0;
+	border-left: 25px solid transparent;
+	border-right: 25px solid transparent;
+	border-bottom: 50px solid #555;
+}
 img {
   display: flex;
   padding: 100px;
