@@ -25,6 +25,19 @@
 <div class="sidenav">
   <a href="about.html">About</a>
   <a href="contact.html">Contact</a>
+  <script>
+var prevScrollpos = window.pageYOffset;
+window.onscroll = function() {
+var currentScrollPos = window.pageYOffset;
+  if (prevScrollpos > currentScrollPos) {
+    document.getElementById("navbar").style.top = "0";
+  } else {
+    document.getElementById("navbar").style.top = "-50px";
+  }
+  prevScrollpos = currentScrollPos;
+}
+</script>
+
 </div>
 
 <!-- Page content -->
