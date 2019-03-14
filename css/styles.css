@@ -3,11 +3,37 @@ h1 {
   font-family: 'Ubuntu', sans-serif;
   color: rgb(255, 255, 255)
 }
+#navbar a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 25px;
+  border-radius: 4px;
+}
+#navbar #logo {
+  font-size: 35px;
+  font-weight: bold;
+  transition: 0.4s;
+}
+#navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
 body {
   position: relative;
   background-image: url("../space.jpg");
   background-repeat:no-repeat;
   background-size:100% 100vh;
+}
+.triangle-up {
+	width: 0;
+	height: 0;
+	border-left: 25px solid transparent;
+	border-right: 25px solid transparent;
+	border-bottom: 50px solid #555;
 }
 img {
   display: flex;
@@ -29,6 +55,7 @@ p {
   font-size: 2em;
   color: rgb(255, 255, 255)
 }
+
 ul {
   font-size: 1.3em;
   color: white;
@@ -40,6 +67,14 @@ ul {
   padding: 10px;
   margin-right: 100px;
   margin-left: 100px;
+}
+
+.triangle-up {
+	width: 0;
+	height: 0;
+	border-left: 25px solid transparent;
+	border-right: 25px solid transparent;
+	border-bottom: 50px solid #555;
 }
 
 /* The sidebar menu */
@@ -76,7 +111,10 @@ ul {
 .main {
   margin-left: 160px;
   padding: 0px 10px;
-
 }
-/* smaller screens, chang style of the sidebar */
+/* smaller screens, change style of the sidebar */
 @media screen and (max-height: 450px)
+@media screen and (max-width: 580px)
+  #navbar {
+    padding: 20px 10px !important;
+}
