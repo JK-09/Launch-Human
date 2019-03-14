@@ -27,7 +27,6 @@ body {
   background-image: url("../space.jpg");
   background-repeat:no-repeat;
   background-size:100% 100vh;
-
 }
 .triangle-up {
 	width: 0;
@@ -56,6 +55,20 @@ p {
   font-size: 2em;
   color: rgb(255, 255, 255)
 }
+
+ul {
+  font-size: 1.3em;
+  color: white;
+  text-align: center;
+  list-style-type: disc;
+  list-style-position: inside;
+  background: #191970;
+  opacity: 0.8;
+  padding: 10px;
+  margin-right: 100px;
+  margin-left: 100px;
+}
+
 .triangle-up {
 	width: 0;
 	height: 0;
@@ -63,6 +76,7 @@ p {
 	border-right: 25px solid transparent;
 	border-bottom: 50px solid #555;
 }
+
 /* The sidebar menu */
 .sidenav {
   height: 100%;
