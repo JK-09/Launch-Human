@@ -8,7 +8,6 @@ body {
   background-image: url("../space.jpg");
   background-repeat:no-repeat;
   background-size:100% 100vh;
-
 }
 img {
   display: flex;
@@ -30,6 +29,19 @@ p {
   font-size: 2em;
   color: rgb(255, 255, 255)
 }
+ul {
+  font-size: 1.3em;
+  color: white;
+  text-align: center;
+  list-style-type: disc;
+  list-style-position: inside;
+  background: #191970;
+  opacity: 0.8;
+  padding: 10px;
+  margin-right: 100px;
+  margin-left: 100px;
+}
+
 /* The sidebar menu */
 .sidenav {
   height: 100%;
