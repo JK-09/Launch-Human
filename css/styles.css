@@ -22,6 +22,12 @@ body {
   width: 50px;
   background-color: #555;
 }
+.trapezoid {
+	border-bottom: 50px solid #555;
+	border-left: 25px solid transparent;
+	border-right: 25px solid transparent;
+	height: 0;
+	width: 125px;
 img {
   display: flex;
   padding: 100px;
