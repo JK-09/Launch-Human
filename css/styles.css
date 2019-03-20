@@ -46,10 +46,6 @@ img {
   margin: 0 auto;
   border-radius: 100px;
 }
-.body-background {
-    height: 100vh;
-    width: 100vw;
-    background-color: rgba(0,0, 0, 0.6);
 }
 .btn {
   margin-left: 45%;
