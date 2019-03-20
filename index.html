@@ -7,44 +7,93 @@
   <script src="http://code.jquery.com/jquery-3.2.1.min.js"></script>
   <script src="js/scripts.js"></script>
 
+  <!-- Add icon library -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <style>
+  .fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+  }
+  .fa:hover {
+      opacity: 0.7;
+  }
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  </style>
+
   <meta charset="utf-8" />
  <meta http-equiv="X-UA-Compatible" content="IE=edge">
  <meta name="viewport" content="width=device-width, initial-scale=1">
  <script src="http://code.jquery.com/jquery-3.2.1.min.js"></script>
  </head>
 
-
 <body style="background-color:black;">
 <div class="body-background">
-<div id="navbar">
-  <a href="#default" id="logo">Launch Human</a>
-  <div id="navbar-right">
-    <a class="active" href="#home">Home</a>
-    <a href="#about">About</a>
-    <a href="#contact">Contact</a>
-  </div>
-</div>
+  <div id="navbar">
+   <a href="#default" id="logo">Launch Human</a>
+
+   <h1 class="text-center">Launch Human</h1>
+   </div>
+   <p> "ONE SMALL STEP FOR MAN, ONE GIANT LEAP FOR MANKIND" </p> <br>
+   <ul> <p> Timeline of human space travel: </p>
+      <li>1961: First manned flight carrying Yuri Gagarin (USSR).</li>
+      <li>1963: First woman in space is Valentina Tereshkova (USSR).</li>
+      <li>1968: First piloted orbital mission of Moon (NASA).</li>
+      <li>1969: First human on the Moon and first space launch from a celestial body by Neil Armstrong and Buzz Aldrin (NASA).</li>
+      <li>1971: First space station (USSR).</li>
+      <li>1971: First moon car, the Lunar Rover, driven on the moon (NASA).</li>
+      <li>1984: First untethered spacewalk by Bruce McCandless (NASA).</li>
+      <li>1991: First British astronaut in space, Helen Sharman.</li>
+      <li>1995: First Record for longest duration spaceflight (437.7 days) set by Valeri Polyakov (Russia).</li>
+      <li>2000: Permanent staffing begins on International Space Station.</li>
+      <li>2001: First tourist in space, Dennis Tito, which cost 20 million dollars for a week in orbit!</li>
+      <li>2004: First privately funded manned spaceflight, by SpaceShipOne.</li>
+    </ul>
 </div>
 <div>
-<p> "ONE SMALL STEP FOR MAN, ONE GIANT LEAP FOR MANKIND" </p>
+  <br> <br> <p> DID YOU KNOW? </p>
+  <p> Only 12 people have ever walked on the moon </p>
+  <p> and no one has been there since 1972! </p>
+  <img src="moonlanding.jpeg" alt="Astronaut on the moon">
 </div>
+
 <!-- Side navigation -->
 <div class="sidenav">
   <a href="about.html">About</a>
   <a href="contact.html">Contact</a>
+  <!-- Add font awesome icons -->
+  <a href="https://www.facebook.com/" class="fa fa-facebook"></a>
+  <a href="https://twitter.com/" class="fa fa-twitter"></a>
+<script>
+var prevScrollpos = window.pageYOffset;
+window.onscroll = function() {
+var currentScrollPos = window.pageYOffset;
+  if (prevScrollpos > currentScrollPos) {
+    document.getElementById("navbar").style.top = "0";
+  } else {
+    document.getElementById("navbar").style.top = "-50px";
+  }
+  prevScrollpos = currentScrollPos;
+}
+</script>
 
-  <div class="dropdown">
-    <button class="dropbtn">Dropdown</button>
-    <div class="dropdown-content">
-      <a href="#">Link 1</a>
-      <a href="#">Link 2</a>
-      <a href="#">Link 3</a>
-    </div>
-  </div>
+</div>
 
 <!-- Page content -->
 <div class="main">
-  ...
-</div>
-  </body>
- </html>
+
+<div class="triangle-up"></div>
+<div class="square"></div>
+</body>
+   </body>
+</html>
