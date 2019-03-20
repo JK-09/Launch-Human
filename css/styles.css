@@ -273,9 +273,7 @@ hr {
   font-size: 18px;
   padding: 11px;
   border: 1px solid #ddd;
-  position:relative;
-  left:80%;
-  top:25%;
+  align-: right;
 }
 
 /* Style the navigation menu */
