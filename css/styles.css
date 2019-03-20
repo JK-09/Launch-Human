@@ -33,7 +33,9 @@ img {
   padding: 100px;
   margin: 0 auto;
   border-radius: 100px;
-}
+      width:650px;
+      padding:1px;
+      border:1px solid #021a40;
 }
 .btn {
   margin-left: 45%;
