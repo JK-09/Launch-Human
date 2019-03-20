@@ -3,12 +3,42 @@ h1 {
   font-family: 'Ubuntu', sans-serif;
   color: rgb(255, 255, 255)
 }
+#navbar a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 25px;
+  border-radius: 4px;
+}
+#navbar #logo {
+  font-size: 35px;
+  font-weight: bold;
+  transition: 0.4s;
+}
+#navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
 body {
   position: relative;
   background-image: url("../space.jpg");
-  background-repeat:no-repeat;
+  background-repeat:repeat;
   background-size:100% 100vh;
-
+}
+.triangle-up {
+	width: 0;
+	height: 0;
+	border-left: 25px solid transparent;
+	border-right: 25px solid transparent;
+	border-bottom: 50px solid #555;
+}
+.square {
+  height: 50px;
+  width: 50px;
+  background-color: #555;
 }
 img {
   display: flex;
@@ -30,6 +60,28 @@ p {
   font-size: 2em;
   color: rgb(255, 255, 255)
 }
+
+ul {
+  font-size: 1.3em;
+  color: white;
+  text-align: center;
+  list-style-type: disc;
+  list-style-position: inside;
+  background: #191970;
+  opacity: 0.8;
+  padding: 10px;
+  margin-right: 100px;
+  margin-left: 100px;
+}
+
+.triangle-up {
+	width: 0;
+	height: 0;
+	border-left: 25px solid transparent;
+	border-right: 25px solid transparent;
+	border-bottom: 50px solid #555;
+}
+
 /* The sidebar menu */
 .sidenav {
   height: 100%;
@@ -64,7 +116,76 @@ p {
 .main {
   margin-left: 160px;
   padding: 0px 10px;
-
 }
-/* smaller screens, chang style of the sidebar */
+/* smaller screens, change style of the sidebar */
 @media screen and (max-height: 450px)
+@media screen and (max-width: 580px)
+  #navbar {
+    padding: 20px 10px !important;
+}
+
+* {box-sizing: border-box}
+
+/* Full-width input fields */
+  input[type=text], input[type=email] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+input[type=text]:focus, input[type=email]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+/* Set a style for all buttons */
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+button:hover {
+  opacity:1;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+  padding: 14px 20px;
+  background-color: #f44336;
+}
+
+/* Float cancel and subscribe buttons and add an equal width */
+.cancelbtn, .subscribebtn {
+  float: left;
+  width: 50%;
+}
+
+/* Add padding to container elements */
+.container {
+  padding: 16px;
+}
+
+/* Clear floats */
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Change styles for cancel button and subscribe button on extra small screens */
+@media screen and (max-width: 300px) {
+  .cancelbtn, .subscribebtn {
+    width: 100%;
+  }
+}
