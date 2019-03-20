@@ -177,18 +177,20 @@ input[type=text]:focus, input[type=password]:focus {
 
 /* Set a style for all buttons */
 button {
-  background-color: #4CAF50;
+  background-color: #00386E;
   color: white;
-  padding: 14px 20px;
-  margin: 8px 0;
+  padding: 16px 25px;
+  margin: 0 auto;
   border: none;
   cursor: pointer;
   width: 100%;
-  opacity: 0.9;
+  border-radius: 8px;
+  display: block;
+  position: middle;
 }
 
 button:hover {
-  opacity:1;
+  opacity:0.8;
 }
 
 /* Extra styles for the cancel button */
