@@ -1,3 +1,13 @@
+var prevScrollpos = window.pageYOffset;
+window.onscroll = function() {
+var currentScrollPos = window.pageYOffset;
+  if (prevScrollpos > currentScrollPos) {
+    document.getElementById("navbar").style.top = "0";
+  } else {
+    document.getElementById("navbar").style.top = "-50px";
+  }
+  prevScrollpos = currentScrollPos;
+}
 $("#p").hover(function(event) {
 });
 
@@ -19,8 +29,12 @@ window.onscroll = function() {
   }
   prevScrollpos = currentScrollPos;
 }
+
 var slideIndex = 0;
 showSlides();
+=======
+// When the user scrolls down 80px from the top of the document, resize the navbar's padding and the logo's font size
+window.onscroll = function() {scrollFunction()};
 
 function showSlides() {
   var i;
