@@ -161,6 +161,7 @@ ul {
 .dropdown:hover .dropdown-content {display: block;}
 
 .dropdown:hover .dropbtn {background-color: #3e8e41;}
+<<<<<<< HEAD
 
 
   * {box-sizing:border-box}
@@ -395,3 +396,5 @@ hr {
   .cancelbtn, .subscribebtn {
      width: 100%;
   }
+=======
+>>>>>>> parent of dfdaa98... slideshow css
